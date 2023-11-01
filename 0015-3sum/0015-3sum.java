@@ -9,7 +9,7 @@ class Solution {
     }
 
     public void twoPointer(int level, int[] nums){
-        if(level>0 && nums[level]==nums[level-1]){
+        if(level>0 && nums[level]==nums[level-1] || nums[level]>0){
             return;
         }
         int left = level+1;

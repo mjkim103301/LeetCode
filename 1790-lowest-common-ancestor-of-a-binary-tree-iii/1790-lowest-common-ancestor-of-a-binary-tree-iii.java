@@ -14,10 +14,7 @@ class Solution {
     public Node lowestCommonAncestor(Node p, Node q) {
         
         while(true){
-            if(findNode(p)){
-                break;
-            }
-            if(findNode(q)){
+            if(findNode(p) || findNode(q)){
                 break;
             }
             if(p!=null){

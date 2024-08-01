@@ -22,4 +22,16 @@
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/mjkim103301/LeetCode/tree/master/0035-search-insert-position) |
+## Hash Table
+|  |
+| ------- |
+| [0359-logger-rate-limiter](https://github.com/mjkim103301/LeetCode/tree/master/0359-logger-rate-limiter) |
+## Design
+|  |
+| ------- |
+| [0359-logger-rate-limiter](https://github.com/mjkim103301/LeetCode/tree/master/0359-logger-rate-limiter) |
+## Data Stream
+|  |
+| ------- |
+| [0359-logger-rate-limiter](https://github.com/mjkim103301/LeetCode/tree/master/0359-logger-rate-limiter) |
 <!---LeetCode Topics End-->

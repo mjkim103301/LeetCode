@@ -19,35 +19,23 @@ class Solution {
     public List<List<Integer>> findLeaves(TreeNode root) {
         answer = new ArrayList<>();
         while(root != null){
-            childList = new ArrayList<>();
-            collectLeafNodes(root);
-            answer.add(childList);
-            root = removeLeafNodes(root);            
+            childList = new ArrayList<>();  
+            root = dfs(root);    
+             answer.add(childList);        
         }
         return answer;
     }
 
-    private void collectLeafNodes(TreeNode root){
-        if(root == null){
-            return;
-        }
-        if(root.left==null && root.right == null){
-            childList.add(root.val);
-            return;
-        }
-        collectLeafNodes(root.left);
-        collectLeafNodes(root.right);
-    }
-
-    private TreeNode removeLeafNodes(TreeNode root){
+    private TreeNode dfs(TreeNode root){
         if(root == null){
             return root;
         }
         if(root.right == null && root.left == null){     
+             childList.add(root.val);
             return null;
         }
-        root.left = removeLeafNodes(root.left);
-        root.right = removeLeafNodes(root.right);
+        root.left = dfs(root.left);
+        root.right = dfs(root.right);
         return root;
     }
 }

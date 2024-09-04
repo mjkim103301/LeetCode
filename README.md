@@ -13,6 +13,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/mjkim103301/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/mjkim103301/LeetCode/tree/master/0027-remove-element) |
 | [0035-search-insert-position](https://github.com/mjkim103301/LeetCode/tree/master/0035-search-insert-position) |
+| [0418-sentence-screen-fitting](https://github.com/mjkim103301/LeetCode/tree/master/0418-sentence-screen-fitting) |
 ## Two Pointers
 |  |
 | ------- |
@@ -46,4 +47,12 @@
 |  |
 | ------- |
 | [0366-find-leaves-of-binary-tree](https://github.com/mjkim103301/LeetCode/tree/master/0366-find-leaves-of-binary-tree) |
+## String
+|  |
+| ------- |
+| [0418-sentence-screen-fitting](https://github.com/mjkim103301/LeetCode/tree/master/0418-sentence-screen-fitting) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0418-sentence-screen-fitting](https://github.com/mjkim103301/LeetCode/tree/master/0418-sentence-screen-fitting) |
 <!---LeetCode Topics End-->

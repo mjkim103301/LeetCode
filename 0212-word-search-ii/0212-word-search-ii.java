@@ -32,10 +32,9 @@ class Solution {
         // System.out.println("prefix: " + prefix);
         // System.out.println("flag: " + now.flag);
         // System.out.println("trie now: " + Arrays.toString(now.node));
-        if (now.flag > 0) {
+        if (now.flag) {
             found.add(prefix);
-            now.flag--;
-            //return;
+            now.flag=false;
         }
         visited[y][x] = true;
         for (int i = 0; i < 4; i++) {
@@ -52,7 +51,7 @@ class Solution {
 
             findWord(ny, nx, word, now.node[ch - 'a']);
         }
-        visited[y][x]=false;
+        visited[y][x] = false;
     }
 
     public void makeTrie(String[] words) {
@@ -63,11 +62,11 @@ class Solution {
 
     public class Trie {
         public Trie[] node;
-        public int flag;
+        public boolean flag;
 
         public Trie() {
             node = new Trie[26];
-            flag = 0;
+            flag = false;
         }
 
         public void insert(String word) {
@@ -79,7 +78,7 @@ class Solution {
                 }
                 trie = trie.node[index];
             }
-            trie.flag++;
+            trie.flag = true;
         }
 
         public boolean search(String word) {
@@ -90,7 +89,7 @@ class Solution {
                     return false;
                 }
             }
-            return trie.flag > 0;
+            return trie.flag;
         }
 
         public boolean startsWith(String prefix) {

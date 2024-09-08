@@ -75,9 +75,9 @@ class Solution {
             if (!parent.child.containsKey(ch)) {
                 continue;
             }
-
-            dfs(ny, nx, parent.child.get(ch));
-            if(parent.child.get(ch).child.size()==0){
+            Trie children = parent.child.get(ch);
+            dfs(ny, nx, children);
+            if (children.child.size() == 0) {
                 parent.child.remove(ch);
             }
         }

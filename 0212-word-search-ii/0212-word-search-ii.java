@@ -1,42 +1,70 @@
+class Trie {
+    HashMap<Character, Trie> child;
+    String word;
+
+    public Trie() {
+        child = new HashMap<>();
+        word = null;
+    }
+}
+
 class Solution {
-    public Trie trie = new Trie();
+    public char[][] map;
+    public boolean[][] visited;
     public List<String> found;
+    public Trie root;
     public int[][] move = {
             { 0, 1 },
             { 0, -1 },
             { 1, 0 },
             { -1, 0 }
     };
-    public char[][] map;
-    public boolean[][] visited;
 
     public List<String> findWords(char[][] board, String[] words) {
+        map = new char[board.length][board[0].length];
+        visited = new boolean[board.length][board[0].length];
         found = new ArrayList<>();
-        makeTrie(words);
-        map = board;
+        root = new Trie();
+        for (int i = 0; i < board.length; i++) {
+            map[i] = Arrays.copyOf(board[i], board[0].length);
+        }
 
+        makeTrie(words);
         for (int y = 0; y < board.length; y++) {
             for (int x = 0; x < board[0].length; x++) {
-                String prefix = board[y][x] + "";
-                if (trie.startsWith(prefix)) {
-                    visited = new boolean[board.length][board[0].length];
-                    findWord(y, x, prefix, trie.node[board[y][x] - 'a']);
+                char ch = board[y][x];
+                if (root.child.containsKey(ch)) {
+                    dfs(y, x, root.child.get(ch));
                 }
             }
         }
         return found;
+
     }
 
-    public void findWord(int y, int x, String prefix, Trie now) {
-        // System.out.println("y: " + y + ", x: " + x);
-        // System.out.println("prefix: " + prefix);
-        // System.out.println("flag: " + now.flag);
-        // System.out.println("trie now: " + Arrays.toString(now.node));
-        if (now.flag) {
-            found.add(prefix);
-            now.flag=false;
+    public void makeTrie(String[] words) {
+        for (String word : words) {
+            Trie node = root;
+            for (Character ch : word.toCharArray()) {
+                if (!node.child.containsKey(ch)) {
+                    node.child.put(ch, new Trie());
+                }
+                node = node.child.get(ch);
+            }
+            node.word = word;
         }
+    }
+
+    public void dfs(int y, int x, Trie parent) {
+        // System.out.println("y: " + y + ", x: " + x);
+        // System.out.println("Trie word: " + parent.word);
+        // System.out.println("Trie child: " + parent.child.keySet());
         visited[y][x] = true;
+        if (parent.word != null) {
+            found.add(parent.word);
+            parent.word = null;
+        }
+
         for (int i = 0; i < 4; i++) {
             int ny = y + move[i][0];
             int nx = x + move[i][1];
@@ -44,63 +72,12 @@ class Solution {
                 continue;
             }
             char ch = map[ny][nx];
-            String word = prefix + ch;
-            if (!now.startsWith(ch + "")) {
+            if (!parent.child.containsKey(ch)) {
                 continue;
             }
 
-            findWord(ny, nx, word, now.node[ch - 'a']);
+            dfs(ny, nx, parent.child.get(ch));
         }
         visited[y][x] = false;
-    }
-
-    public void makeTrie(String[] words) {
-        for (String word : words) {
-            trie.insert(word);
-        }
-    }
-
-    public class Trie {
-        public Trie[] node;
-        public boolean flag;
-
-        public Trie() {
-            node = new Trie[26];
-            flag = false;
-        }
-
-        public void insert(String word) {
-            Trie trie = this;
-            for (char ch : word.toCharArray()) {
-                int index = ch - 'a';
-                if (trie.node[index] == null) {
-                    trie.node[index] = new Trie();
-                }
-                trie = trie.node[index];
-            }
-            trie.flag = true;
-        }
-
-        public boolean search(String word) {
-            Trie trie = this;
-            for (char ch : word.toCharArray()) {
-                int index = ch - 'a';
-                if (trie.node[index] == null) {
-                    return false;
-                }
-            }
-            return trie.flag;
-        }
-
-        public boolean startsWith(String prefix) {
-            Trie trie = this;
-            for (char ch : prefix.toCharArray()) {
-                int index = ch - 'a';
-                if (trie.node[index] == null) {
-                    return false;
-                }
-            }
-            return true;
-        }
     }
 }

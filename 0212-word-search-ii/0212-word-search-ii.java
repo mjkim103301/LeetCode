@@ -77,6 +77,9 @@ class Solution {
             }
 
             dfs(ny, nx, parent.child.get(ch));
+            if(parent.child.get(ch).child.size()==0){
+                parent.child.remove(ch);
+            }
         }
         visited[y][x] = false;
     }

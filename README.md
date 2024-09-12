@@ -17,6 +17,7 @@
 | [0212-word-search-ii](https://github.com/mjkim103301/LeetCode/tree/master/0212-word-search-ii) |
 | [0418-sentence-screen-fitting](https://github.com/mjkim103301/LeetCode/tree/master/0418-sentence-screen-fitting) |
 | [0419-battleships-in-a-board](https://github.com/mjkim103301/LeetCode/tree/master/0419-battleships-in-a-board) |
+| [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
 ## Two Pointers
 |  |
 | ------- |
@@ -26,6 +27,7 @@
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/mjkim103301/LeetCode/tree/master/0035-search-insert-position) |
+| [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
 ## Hash Table
 |  |
 | ------- |
@@ -93,4 +95,16 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/mjkim103301/LeetCode/tree/master/0139-word-break) |
+## Math
+|  |
+| ------- |
+| [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
+## Prefix Sum
+|  |
+| ------- |
+| [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
+## Randomized
+|  |
+| ------- |
+| [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
 <!---LeetCode Topics End-->

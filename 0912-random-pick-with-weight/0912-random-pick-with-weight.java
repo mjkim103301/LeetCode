@@ -1,5 +1,4 @@
 class Solution {
-   // public int sum;
     public int[] array;
     public int length;
 
@@ -10,14 +9,10 @@ class Solution {
         for (int i = 1; i < length; i++) {
             array[i] = array[i - 1] + w[i];
         }
-     //   sum = array[w.length - 1];
-        // System.out.println("sum: " + sum);
-        // System.out.println("array: " + Arrays.toString(array));
     }
 
     public int pickIndex() {
-        double target = array[length-1] * Math.random();
-        // System.out.println(target);
+        double target = array[length - 1] * Math.random();
         int left = 0;
         int right = array.length - 1;
         while (left <= right) {

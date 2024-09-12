@@ -1,11 +1,13 @@
 class Solution {
    // public int sum;
     public int[] array;
+    public int length;
 
     public Solution(int[] w) {
-        array = new int[w.length];
+        length = w.length;
+        array = new int[length];
         array[0] = w[0];
-        for (int i = 1; i < w.length; i++) {
+        for (int i = 1; i < length; i++) {
             array[i] = array[i - 1] + w[i];
         }
      //   sum = array[w.length - 1];
@@ -14,7 +16,7 @@ class Solution {
     }
 
     public int pickIndex() {
-        double target = array[array.length-1] * Math.random();
+        double target = array[length-1] * Math.random();
         // System.out.println(target);
         int left = 0;
         int right = array.length - 1;

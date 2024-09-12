@@ -1,5 +1,5 @@
 class Solution {
-    public int sum;
+   // public int sum;
     public int[] array;
 
     public Solution(int[] w) {
@@ -8,13 +8,13 @@ class Solution {
         for (int i = 1; i < w.length; i++) {
             array[i] = array[i - 1] + w[i];
         }
-        sum = array[w.length - 1];
+     //   sum = array[w.length - 1];
         // System.out.println("sum: " + sum);
         // System.out.println("array: " + Arrays.toString(array));
     }
 
     public int pickIndex() {
-        double target = sum * Math.random();
+        double target = array[array.length-1] * Math.random();
         // System.out.println(target);
         int left = 0;
         int right = array.length - 1;

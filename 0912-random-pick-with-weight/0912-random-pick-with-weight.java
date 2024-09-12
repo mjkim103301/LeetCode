@@ -1,18 +1,18 @@
 class Solution {
     public int[] array;
-    public int length;
+    public int sum;
 
     public Solution(int[] w) {
-        length = w.length;
-        array = new int[length];
+        array = new int[w.length];
         array[0] = w[0];
-        for (int i = 1; i < length; i++) {
+        for (int i = 1; i < w.length; i++) {
             array[i] = array[i - 1] + w[i];
         }
+        sum = array[w.length - 1];
     }
 
     public int pickIndex() {
-        double target = array[length - 1] * Math.random();
+        double target = sum * Math.random();
         int left = 0;
         int right = array.length - 1;
         while (left <= right) {

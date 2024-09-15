@@ -5,7 +5,7 @@ class Solution {
             int hour = Integer.parseInt(timePoint.substring(0, 2));
             int minute = Integer.parseInt(timePoint.substring(3));
             int time = hour * 60 + minute;
-            System.out.println("time: "+time);
+      
             if (times[time]) {
                 return 0;
             }
@@ -30,7 +30,7 @@ class Solution {
                 min = Math.min(i - right, min);
                 right = i;
             }
-            System.out.println("min: "+min);
+          
 
         }
         return Math.min(min, 1440 - (right - left));

@@ -1,27 +1,39 @@
 class Solution {
     public int findMinDifference(List<String> timePoints) {
-        List<Integer> minutes = timeToMinutes(timePoints);
-        return minDifference(minutes);
+        boolean[] times = new boolean[24 * 60];
+        for (String timePoint : timePoints) {
+            int hour = Integer.parseInt(timePoint.substring(0, 2));
+            int minute = Integer.parseInt(timePoint.substring(3));
+            int time = hour * 60 + minute;
+            System.out.println("time: "+time);
+            if (times[time]) {
+                return 0;
+            }
+            times[time] = true;
+        }
+
+        return minDifference(times);
     }
 
-    public List<Integer> timeToMinutes(List<String> timePoints) {
-        List<Integer> minutes = new ArrayList<>();
-        for (String time : timePoints) {
-            int hour = Integer.parseInt(time.substring(0, 2));
-            int minute = Integer.parseInt(time.substring(3));
-            minutes.add(hour * 60 + minute);
-        }
-        return minutes;
-    }
+    public int minDifference(boolean[] times) {
+        int left = Integer.MAX_VALUE;
+        int right = Integer.MAX_VALUE;
+        int min = Integer.MAX_VALUE;
+        for (int i = 0; i < times.length; i++) {
+            if (!times[i])
+                continue;
 
-    public int minDifference(List<Integer> minutes) {
-        Collections.sort(minutes);
-        int min = minutes.get(minutes.size() - 1) - minutes.get(0);
-        min = Math.min(min, 1440 - min);
-        for (int i = 1; i < minutes.size(); i++) {
-            int diff = minutes.get(i) - minutes.get(i - 1);
-            min = Math.min(min, diff);
+            if (left == Integer.MAX_VALUE) {
+                left = i;
+                right = i;
+            } else {
+                min = Math.min(i - right, min);
+                right = i;
+            }
+            System.out.println("min: "+min);
+
         }
-        return min;
+        return Math.min(min, 1440 - (right - left));
+
     }
 }

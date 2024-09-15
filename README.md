@@ -17,6 +17,7 @@
 | [0212-word-search-ii](https://github.com/mjkim103301/LeetCode/tree/master/0212-word-search-ii) |
 | [0418-sentence-screen-fitting](https://github.com/mjkim103301/LeetCode/tree/master/0418-sentence-screen-fitting) |
 | [0419-battleships-in-a-board](https://github.com/mjkim103301/LeetCode/tree/master/0419-battleships-in-a-board) |
+| [0539-minimum-time-difference](https://github.com/mjkim103301/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
 ## Two Pointers
 |  |
@@ -63,6 +64,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/mjkim103301/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/mjkim103301/LeetCode/tree/master/0212-word-search-ii) |
 | [0418-sentence-screen-fitting](https://github.com/mjkim103301/LeetCode/tree/master/0418-sentence-screen-fitting) |
+| [0539-minimum-time-difference](https://github.com/mjkim103301/LeetCode/tree/master/0539-minimum-time-difference) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -98,6 +100,7 @@
 ## Math
 |  |
 | ------- |
+| [0539-minimum-time-difference](https://github.com/mjkim103301/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
 ## Prefix Sum
 |  |
@@ -107,4 +110,8 @@
 |  |
 | ------- |
 | [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
+## Sorting
+|  |
+| ------- |
+| [0539-minimum-time-difference](https://github.com/mjkim103301/LeetCode/tree/master/0539-minimum-time-difference) |
 <!---LeetCode Topics End-->

@@ -17,12 +17,6 @@ class Solution {
     public Node[][] dp;
     public int[][] map;
     public int answer;
-    public int[][] move = {
-            { 0, -1 },
-            { -1, 0 },
-            { -1, -1 },
-            { -1, 1 }
-    };
 
     public int longestLine(int[][] mat) {
         dp = new Node[mat.length][mat[0].length];
@@ -37,10 +31,10 @@ class Solution {
                 dp[y][x] = new Node();
                 if (map[y][x] == 0)
                     continue;
-                dp[y][x].horizontal = getHorizontal(y, x, mat[y][x]);
-                dp[y][x].vertical = getVertical(y, x, mat[y][x]);
-                dp[y][x].diagonal = getDiagonal(y, x, mat[y][x]);
-                dp[y][x].antiDiagonal = getAntiDiagonal(y, x, mat[y][x]);
+                dp[y][x].horizontal = getHorizontal(y, x-1, mat[y][x]);
+                dp[y][x].vertical = getVertical(y-1, x, mat[y][x]);
+                dp[y][x].diagonal = getDiagonal(y-1, x-1, mat[y][x]);
+                dp[y][x].antiDiagonal = getAntiDiagonal(y-1, x+1, mat[y][x]);
 
                 // System.out.print(dp[y][x]);
             }
@@ -50,11 +44,8 @@ class Solution {
         return answer;
     }
 
-    public int getHorizontal(int y, int x, int plus) {
+    public int getHorizontal(int py, int px, int plus) {
         int max = plus;
-
-        int py = y + move[0][0];
-        int px = x + move[0][1];
         if (isInMap(py, px)) {
             if (map[py][px] == 1) {
                 max = dp[py][px].horizontal + plus;
@@ -65,10 +56,8 @@ class Solution {
         return max;
     }
 
-    public int getVertical(int y, int x, int plus) {
+    public int getVertical(int py, int px, int plus) {
         int max = plus;
-        int py = y + move[1][0];
-        int px = x + move[1][1];
         if (isInMap(py, px)) {
             if (map[py][px] == 1) {
                 max = dp[py][px].vertical + plus;
@@ -78,10 +67,8 @@ class Solution {
         return max;
     }
 
-    public int getDiagonal(int y, int x, int plus) {
+    public int getDiagonal(int py, int px, int plus) {
         int max = plus;
-        int py = y + move[2][0];
-        int px = x + move[2][1];
         if (isInMap(py, px)) {
             if (map[py][px] == 1) {
                 max = dp[py][px].diagonal + plus;
@@ -91,10 +78,8 @@ class Solution {
         return max;
     }
 
-    public int getAntiDiagonal(int y, int x, int plus) {
+    public int getAntiDiagonal(int py, int px, int plus) {
         int max = plus;
-        int py = y + move[3][0];
-        int px = x + move[3][1];
         if (isInMap(py, px)) {
             if (map[py][px] == 1) {
                 max = dp[py][px].antiDiagonal + plus;

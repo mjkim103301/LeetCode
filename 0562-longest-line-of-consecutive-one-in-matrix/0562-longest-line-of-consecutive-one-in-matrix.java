@@ -36,12 +36,13 @@ class Solution {
         for (int y = 0; y < mat.length; y++) {
             for (int x = 0; x < mat[0].length; x++) {
                 dp[y][x] = new Node();
-                if (map[y][x] == 0)
+                int value = map[y][x];
+                if (value == 0)
                     continue;
-                dp[y][x].horizontal = getValue(y, x, 0, mat[y][x]);
-                dp[y][x].vertical = getValue(y, x, 1, mat[y][x]);
-                dp[y][x].diagonal = getValue(y, x, 2, mat[y][x]);
-                dp[y][x].antiDiagonal = getValue(y, x, 3, mat[y][x]);
+                dp[y][x].horizontal = getValue(y, x, 0, value);
+                dp[y][x].vertical = getValue(y, x, 1, value);
+                dp[y][x].diagonal = getValue(y, x, 2, value);
+                dp[y][x].antiDiagonal = getValue(y, x, 3, value);
 
                 // System.out.print(dp[y][x]);
             }

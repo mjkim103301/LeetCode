@@ -7,10 +7,10 @@ class Node {
     public Node() {
     }
 
-    @Override
-    public String toString() {
-        return String.format("[%d, %d, %d, %d]", horizontal, vertical, diagonal, antiDiagonal);
-    }
+    // @Override
+    // public String toString() {
+    //     return String.format("[%d, %d, %d, %d]", horizontal, vertical, diagonal, antiDiagonal);
+    // }
 }
 
 class Solution {
@@ -42,9 +42,9 @@ class Solution {
                 dp[y][x].diagonal = getDiagonal(y, x, mat[y][x]);
                 dp[y][x].antiDiagonal = getAntiDiagonal(y, x, mat[y][x]);
 
-                System.out.print(dp[y][x]);
+                // System.out.print(dp[y][x]);
             }
-            System.out.println();
+            // System.out.println();
         }
 
         return answer;

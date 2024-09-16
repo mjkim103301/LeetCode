@@ -18,6 +18,7 @@
 | [0418-sentence-screen-fitting](https://github.com/mjkim103301/LeetCode/tree/master/0418-sentence-screen-fitting) |
 | [0419-battleships-in-a-board](https://github.com/mjkim103301/LeetCode/tree/master/0419-battleships-in-a-board) |
 | [0539-minimum-time-difference](https://github.com/mjkim103301/LeetCode/tree/master/0539-minimum-time-difference) |
+| [0562-longest-line-of-consecutive-one-in-matrix](https://github.com/mjkim103301/LeetCode/tree/master/0562-longest-line-of-consecutive-one-in-matrix) |
 | [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
 ## Two Pointers
 |  |
@@ -70,6 +71,7 @@
 | ------- |
 | [0139-word-break](https://github.com/mjkim103301/LeetCode/tree/master/0139-word-break) |
 | [0418-sentence-screen-fitting](https://github.com/mjkim103301/LeetCode/tree/master/0418-sentence-screen-fitting) |
+| [0562-longest-line-of-consecutive-one-in-matrix](https://github.com/mjkim103301/LeetCode/tree/master/0562-longest-line-of-consecutive-one-in-matrix) |
 ## Graph
 |  |
 | ------- |
@@ -93,6 +95,7 @@
 | ------- |
 | [0212-word-search-ii](https://github.com/mjkim103301/LeetCode/tree/master/0212-word-search-ii) |
 | [0419-battleships-in-a-board](https://github.com/mjkim103301/LeetCode/tree/master/0419-battleships-in-a-board) |
+| [0562-longest-line-of-consecutive-one-in-matrix](https://github.com/mjkim103301/LeetCode/tree/master/0562-longest-line-of-consecutive-one-in-matrix) |
 ## Memoization
 |  |
 | ------- |

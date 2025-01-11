@@ -134,4 +134,5 @@
 |  |
 | ------- |
 | [0286-walls-and-gates](https://github.com/mjkim103301/LeetCode/tree/master/0286-walls-and-gates) |
+| [1142-minimum-knight-moves](https://github.com/mjkim103301/LeetCode/tree/master/1142-minimum-knight-moves) |
 <!---LeetCode Topics End-->

@@ -22,6 +22,7 @@
 | [0562-longest-line-of-consecutive-one-in-matrix](https://github.com/mjkim103301/LeetCode/tree/master/0562-longest-line-of-consecutive-one-in-matrix) |
 | [0729-my-calendar-i](https://github.com/mjkim103301/LeetCode/tree/master/0729-my-calendar-i) |
 | [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
+| [1074-high-five](https://github.com/mjkim103301/LeetCode/tree/master/1074-high-five) |
 ## Two Pointers
 |  |
 | ------- |
@@ -39,6 +40,7 @@
 | [0139-word-break](https://github.com/mjkim103301/LeetCode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/mjkim103301/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0359-logger-rate-limiter](https://github.com/mjkim103301/LeetCode/tree/master/0359-logger-rate-limiter) |
+| [1074-high-five](https://github.com/mjkim103301/LeetCode/tree/master/1074-high-five) |
 ## Design
 |  |
 | ------- |
@@ -122,6 +124,7 @@
 |  |
 | ------- |
 | [0539-minimum-time-difference](https://github.com/mjkim103301/LeetCode/tree/master/0539-minimum-time-difference) |
+| [1074-high-five](https://github.com/mjkim103301/LeetCode/tree/master/1074-high-five) |
 ## Segment Tree
 |  |
 | ------- |
@@ -135,4 +138,8 @@
 | ------- |
 | [0286-walls-and-gates](https://github.com/mjkim103301/LeetCode/tree/master/0286-walls-and-gates) |
 | [1142-minimum-knight-moves](https://github.com/mjkim103301/LeetCode/tree/master/1142-minimum-knight-moves) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1074-high-five](https://github.com/mjkim103301/LeetCode/tree/master/1074-high-five) |
 <!---LeetCode Topics End-->

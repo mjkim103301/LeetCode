@@ -72,6 +72,7 @@
 | [0212-word-search-ii](https://github.com/mjkim103301/LeetCode/tree/master/0212-word-search-ii) |
 | [0418-sentence-screen-fitting](https://github.com/mjkim103301/LeetCode/tree/master/0418-sentence-screen-fitting) |
 | [0539-minimum-time-difference](https://github.com/mjkim103301/LeetCode/tree/master/0539-minimum-time-difference) |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/mjkim103301/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -142,4 +143,12 @@
 |  |
 | ------- |
 | [1074-high-five](https://github.com/mjkim103301/LeetCode/tree/master/1074-high-five) |
+## Stack
+|  |
+| ------- |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/mjkim103301/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+## Greedy
+|  |
+| ------- |
+| [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/mjkim103301/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 <!---LeetCode Topics End-->

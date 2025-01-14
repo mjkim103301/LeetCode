@@ -1,8 +1,8 @@
 class Solution {
-    private Queue<Integer> queue;
+    private Queue<Integer> queue = new PriorityQueue<>();
 
     public int connectSticks(int[] sticks) {
-        queue = new PriorityQueue<>();
+        queue.clear();
         int connectCost = 0;
         for (int stick : sticks) {
             queue.offer(stick);

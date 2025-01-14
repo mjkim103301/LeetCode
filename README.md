@@ -23,6 +23,7 @@
 | [0729-my-calendar-i](https://github.com/mjkim103301/LeetCode/tree/master/0729-my-calendar-i) |
 | [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
 | [1074-high-five](https://github.com/mjkim103301/LeetCode/tree/master/1074-high-five) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/mjkim103301/LeetCode/tree/master/1126-minimum-cost-to-connect-sticks) |
 ## Two Pointers
 |  |
 | ------- |
@@ -143,6 +144,7 @@
 |  |
 | ------- |
 | [1074-high-five](https://github.com/mjkim103301/LeetCode/tree/master/1074-high-five) |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/mjkim103301/LeetCode/tree/master/1126-minimum-cost-to-connect-sticks) |
 ## Stack
 |  |
 | ------- |
@@ -150,5 +152,6 @@
 ## Greedy
 |  |
 | ------- |
+| [1126-minimum-cost-to-connect-sticks](https://github.com/mjkim103301/LeetCode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/mjkim103301/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 <!---LeetCode Topics End-->

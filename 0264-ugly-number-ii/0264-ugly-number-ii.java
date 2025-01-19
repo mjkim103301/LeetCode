@@ -10,7 +10,7 @@ class Solution {
         pq.add(uglyNumber);
         for (int i = 0; i < n; i++) {
             uglyNumber = pq.poll();
-            System.out.println("i: " + i + ": " + uglyNumber);
+        
             for (int j = 0; j < 3; j++) {
                 if (set.add(uglyNumber * value[j])) {
                     pq.add(uglyNumber * value[j]);

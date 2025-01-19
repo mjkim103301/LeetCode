@@ -1,15 +1,22 @@
 class Solution {
-    private TreeSet<Long> set;
+    private PriorityQueue<Long> pq;
+    private Set<Long> set;
+    private int[] value = {2,3,5};
 
     public int nthUglyNumber(int n) {
-        set = new TreeSet<>();
+        pq = new PriorityQueue<>();
+        set = new HashSet<>();
         Long uglyNumber = 1L;
-        set.add(uglyNumber);
+        pq.add(uglyNumber);
         for (int i = 0; i < n; i++) {
-            uglyNumber = set.pollFirst();
-            set.add(uglyNumber * 2);
-            set.add(uglyNumber * 3);
-            set.add(uglyNumber * 5);
+            uglyNumber = pq.poll();
+            System.out.println("i: " + i + ": " + uglyNumber);
+            for (int j = 0; j < 3; j++) {
+                if (set.add(uglyNumber * value[j])) {
+                    pq.add(uglyNumber * value[j]);
+                }
+            }
+
         }
         return uglyNumber.intValue();
     }

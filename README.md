@@ -40,6 +40,7 @@
 | ------- |
 | [0139-word-break](https://github.com/mjkim103301/LeetCode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/mjkim103301/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
+| [0264-ugly-number-ii](https://github.com/mjkim103301/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0359-logger-rate-limiter](https://github.com/mjkim103301/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [1074-high-five](https://github.com/mjkim103301/LeetCode/tree/master/1074-high-five) |
 ## Design
@@ -78,6 +79,7 @@
 |  |
 | ------- |
 | [0139-word-break](https://github.com/mjkim103301/LeetCode/tree/master/0139-word-break) |
+| [0264-ugly-number-ii](https://github.com/mjkim103301/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0418-sentence-screen-fitting](https://github.com/mjkim103301/LeetCode/tree/master/0418-sentence-screen-fitting) |
 | [0562-longest-line-of-consecutive-one-in-matrix](https://github.com/mjkim103301/LeetCode/tree/master/0562-longest-line-of-consecutive-one-in-matrix) |
 ## Graph
@@ -112,6 +114,7 @@
 ## Math
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/mjkim103301/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0539-minimum-time-difference](https://github.com/mjkim103301/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
 ## Prefix Sum
@@ -143,6 +146,7 @@
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0264-ugly-number-ii](https://github.com/mjkim103301/LeetCode/tree/master/0264-ugly-number-ii) |
 | [1074-high-five](https://github.com/mjkim103301/LeetCode/tree/master/1074-high-five) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/mjkim103301/LeetCode/tree/master/1126-minimum-cost-to-connect-sticks) |
 ## Stack

@@ -3,9 +3,7 @@ class Solution {
         int left = getLeftTargetIndex(nums, target);
         int right = getRightTargetIndex(nums, target);
         int majority = nums.length / 2;
-        System.out.println("left: " + left);
-        System.out.println("right: " + right);
-        System.out.println("majority: " + majority);
+
         if (left == right) {
             if (nums[0] == target) {
                 return true;

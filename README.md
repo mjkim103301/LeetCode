@@ -23,6 +23,7 @@
 | [0729-my-calendar-i](https://github.com/mjkim103301/LeetCode/tree/master/0729-my-calendar-i) |
 | [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
 | [1074-high-five](https://github.com/mjkim103301/LeetCode/tree/master/1074-high-five) |
+| [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/mjkim103301/LeetCode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/mjkim103301/LeetCode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1164-missing-number-in-arithmetic-progression](https://github.com/mjkim103301/LeetCode/tree/master/1164-missing-number-in-arithmetic-progression) |
 ## Two Pointers
@@ -36,6 +37,7 @@
 | [0035-search-insert-position](https://github.com/mjkim103301/LeetCode/tree/master/0035-search-insert-position) |
 | [0729-my-calendar-i](https://github.com/mjkim103301/LeetCode/tree/master/0729-my-calendar-i) |
 | [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
+| [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/mjkim103301/LeetCode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 ## Hash Table
 |  |
 | ------- |

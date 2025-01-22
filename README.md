@@ -24,6 +24,7 @@
 | [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
 | [1074-high-five](https://github.com/mjkim103301/LeetCode/tree/master/1074-high-five) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/mjkim103301/LeetCode/tree/master/1126-minimum-cost-to-connect-sticks) |
+| [1164-missing-number-in-arithmetic-progression](https://github.com/mjkim103301/LeetCode/tree/master/1164-missing-number-in-arithmetic-progression) |
 ## Two Pointers
 |  |
 | ------- |
@@ -117,6 +118,7 @@
 | [0264-ugly-number-ii](https://github.com/mjkim103301/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0539-minimum-time-difference](https://github.com/mjkim103301/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
+| [1164-missing-number-in-arithmetic-progression](https://github.com/mjkim103301/LeetCode/tree/master/1164-missing-number-in-arithmetic-progression) |
 ## Prefix Sum
 |  |
 | ------- |

@@ -26,6 +26,7 @@
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/mjkim103301/LeetCode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/mjkim103301/LeetCode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [1164-missing-number-in-arithmetic-progression](https://github.com/mjkim103301/LeetCode/tree/master/1164-missing-number-in-arithmetic-progression) |
+| [1672-find-the-index-of-the-large-integer](https://github.com/mjkim103301/LeetCode/tree/master/1672-find-the-index-of-the-large-integer) |
 ## Two Pointers
 |  |
 | ------- |
@@ -38,6 +39,7 @@
 | [0729-my-calendar-i](https://github.com/mjkim103301/LeetCode/tree/master/0729-my-calendar-i) |
 | [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
 | [1102-check-if-a-number-is-majority-element-in-a-sorted-array](https://github.com/mjkim103301/LeetCode/tree/master/1102-check-if-a-number-is-majority-element-in-a-sorted-array) |
+| [1672-find-the-index-of-the-large-integer](https://github.com/mjkim103301/LeetCode/tree/master/1672-find-the-index-of-the-large-integer) |
 ## Hash Table
 |  |
 | ------- |
@@ -162,4 +164,8 @@
 | ------- |
 | [1126-minimum-cost-to-connect-sticks](https://github.com/mjkim103301/LeetCode/tree/master/1126-minimum-cost-to-connect-sticks) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/mjkim103301/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
+## Interactive
+|  |
+| ------- |
+| [1672-find-the-index-of-the-large-integer](https://github.com/mjkim103301/LeetCode/tree/master/1672-find-the-index-of-the-large-integer) |
 <!---LeetCode Topics End-->

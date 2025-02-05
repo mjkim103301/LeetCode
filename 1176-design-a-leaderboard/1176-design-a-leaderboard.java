@@ -14,13 +14,13 @@ class Leaderboard {
     }
 
     public int top(int K) {
-        System.out.println(map);
+        //System.out.println(map);
         int sum = 0;
         List<Map.Entry<Integer, Integer>> entryList = new LinkedList<>(map.entrySet());
         entryList.sort((o1, o2) -> {
             return o2.getValue() - o1.getValue();
         });
-        System.out.println(entryList);
+        //System.out.println(entryList);
         for (int i = 0; i < K; i++) {
             sum += entryList.get(i).getValue();
         }

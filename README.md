@@ -49,6 +49,7 @@
 | [0264-ugly-number-ii](https://github.com/mjkim103301/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0359-logger-rate-limiter](https://github.com/mjkim103301/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [1074-high-five](https://github.com/mjkim103301/LeetCode/tree/master/1074-high-five) |
+| [1176-design-a-leaderboard](https://github.com/mjkim103301/LeetCode/tree/master/1176-design-a-leaderboard) |
 ## Design
 |  |
 | ------- |
@@ -56,6 +57,7 @@
 | [0271-encode-and-decode-strings](https://github.com/mjkim103301/LeetCode/tree/master/0271-encode-and-decode-strings) |
 | [0359-logger-rate-limiter](https://github.com/mjkim103301/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0729-my-calendar-i](https://github.com/mjkim103301/LeetCode/tree/master/0729-my-calendar-i) |
+| [1176-design-a-leaderboard](https://github.com/mjkim103301/LeetCode/tree/master/1176-design-a-leaderboard) |
 ## Data Stream
 |  |
 | ------- |
@@ -139,6 +141,7 @@
 | ------- |
 | [0539-minimum-time-difference](https://github.com/mjkim103301/LeetCode/tree/master/0539-minimum-time-difference) |
 | [1074-high-five](https://github.com/mjkim103301/LeetCode/tree/master/1074-high-five) |
+| [1176-design-a-leaderboard](https://github.com/mjkim103301/LeetCode/tree/master/1176-design-a-leaderboard) |
 ## Segment Tree
 |  |
 | ------- |

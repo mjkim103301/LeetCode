@@ -109,6 +109,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0089-gray-code](https://github.com/mjkim103301/LeetCode/tree/master/0089-gray-code) |
 | [0212-word-search-ii](https://github.com/mjkim103301/LeetCode/tree/master/0212-word-search-ii) |
 ## Matrix
 |  |
@@ -124,6 +125,7 @@
 ## Math
 |  |
 | ------- |
+| [0089-gray-code](https://github.com/mjkim103301/LeetCode/tree/master/0089-gray-code) |
 | [0264-ugly-number-ii](https://github.com/mjkim103301/LeetCode/tree/master/0264-ugly-number-ii) |
 | [0539-minimum-time-difference](https://github.com/mjkim103301/LeetCode/tree/master/0539-minimum-time-difference) |
 | [0912-random-pick-with-weight](https://github.com/mjkim103301/LeetCode/tree/master/0912-random-pick-with-weight) |
@@ -174,4 +176,8 @@
 |  |
 | ------- |
 | [1672-find-the-index-of-the-large-integer](https://github.com/mjkim103301/LeetCode/tree/master/1672-find-the-index-of-the-large-integer) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0089-gray-code](https://github.com/mjkim103301/LeetCode/tree/master/0089-gray-code) |
 <!---LeetCode Topics End-->
